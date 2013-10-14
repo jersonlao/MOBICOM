@@ -3,8 +3,7 @@ package com.example.babyface;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-import android.view.View;
-import android.view.Window;
+
 
 public class MainActivity extends Activity {
 
@@ -22,6 +21,6 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-//	public void addDiary(View view){}
+//	
 
 }
