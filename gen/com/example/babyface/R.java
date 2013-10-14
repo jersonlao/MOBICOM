@@ -231,22 +231,24 @@ containing a value of this type.
         public static final int applogo=0x7f020004;
         public static final int baby_info_design=0x7f020005;
         public static final int baby_info_textbox=0x7f020006;
-        public static final int bg=0x7f020007;
-        public static final int blue_diary=0x7f020008;
-        public static final int close_button=0x7f020009;
-        public static final int confirm_button=0x7f02000a;
-        public static final int diary_entry_page=0x7f02000b;
-        public static final int femalesign=0x7f02000c;
-        public static final int green_diary=0x7f02000d;
-        public static final int ic_launcher=0x7f02000e;
-        public static final int malesign=0x7f02000f;
-        public static final int new_diary_pop=0x7f020010;
-        public static final int orange_diary=0x7f020011;
-        public static final int pink_diary=0x7f020012;
-        public static final int purple_diary=0x7f020013;
-        public static final int red_diary=0x7f020014;
-        public static final int share_button=0x7f020015;
-        public static final int yellow_diary=0x7f020016;
+        public static final int babyface_logo=0x7f020007;
+        public static final int babyface_splash=0x7f020008;
+        public static final int bg=0x7f020009;
+        public static final int blue_diary=0x7f02000a;
+        public static final int close_button=0x7f02000b;
+        public static final int confirm_button=0x7f02000c;
+        public static final int diary_entry_page=0x7f02000d;
+        public static final int femalesign=0x7f02000e;
+        public static final int green_diary=0x7f02000f;
+        public static final int ic_launcher=0x7f020010;
+        public static final int malesign=0x7f020011;
+        public static final int new_diary_pop=0x7f020012;
+        public static final int orange_diary=0x7f020013;
+        public static final int pink_diary=0x7f020014;
+        public static final int purple_diary=0x7f020015;
+        public static final int red_diary=0x7f020016;
+        public static final int share_button=0x7f020017;
+        public static final int yellow_diary=0x7f020018;
     }
     public static final class id {
         public static final int about_view=0x7f040013;
@@ -273,6 +275,7 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int splash=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f080000;
