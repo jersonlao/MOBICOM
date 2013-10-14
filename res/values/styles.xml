@@ -1,3 +1,4 @@
+
 <resources>
 
     <!--
@@ -16,5 +17,18 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-
+    
+    <style name="CustomTheme" parent="@android:style/Theme.Holo.Light">
+       <item name="android:actionBarStyle">@style/CustomActionBar</item>
+       <item name="android:windowActionBarOverlay">true</item>
+       
+    </style>
+    
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:icon">@drawable/applogo</item>
+        <item name="android:background">#228B22</item>	
+    </style>
+    
+    
+	
 </resources>
