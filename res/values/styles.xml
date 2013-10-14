@@ -27,6 +27,7 @@
     <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:icon">@drawable/applogo</item>
         <item name="android:background">#228B22</item>	
+        
     </style>
     
     

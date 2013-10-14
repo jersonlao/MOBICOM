@@ -14,7 +14,8 @@
         android:theme="@style/CustomTheme" android:icon="@drawable/applogo">
         <activity
             android:name="com.example.babyface.MainActivity"
-            android:label="@string/app_name" >
+            android:label=" "
+             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

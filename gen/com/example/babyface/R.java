@@ -231,10 +231,11 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020004;
     }
     public static final class id {
+        public static final int about_view=0x7f040013;
         public static final int action_settings=0x7f040012;
+        public static final int add_view=0x7f040014;
         public static final int alignBounds=0x7f040002;
         public static final int alignMargins=0x7f040003;
-        public static final int api14_refresh_view=0x7f040013;
         public static final int bottom=0x7f040005;
         public static final int center=0x7f04000c;
         public static final int center_horizontal=0x7f04000a;
@@ -260,6 +261,7 @@ containing a value of this type.
         public static final int main_menu_actions=0x7f080001;
     }
     public static final class string {
+        public static final int About_title=0x7f060004;
         public static final int Add_title=0x7f060003;
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
