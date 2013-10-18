@@ -12,7 +12,8 @@
         android:allowBackup="true"
         android:icon="@drawable/babyface_logo"
         android:logo="@drawable/applogo"
-        android:theme="@style/CustomTheme" >
+        android:theme="@style/CustomTheme"
+        android:debuggable="true" >
         <activity
             android:name="com.example.babyface.Splash"
             android:label="BabyFace"
@@ -34,7 +35,6 @@
         </activity>
         <activity
             android:name="com.example.babyface.DiaryEntryView"
-            android:label="@string/title_activity_diary_entry_view" 
             android:theme="@android:style/Theme.NoTitleBar" >
             
         </activity>

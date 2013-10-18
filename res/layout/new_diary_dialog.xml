@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/new_diary_pop" />
+
+    <Button
+        android:id="@+id/dialogExitButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/background"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/close_button" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/background"
+        android:layout_alignLeft="@+id/background"
+        android:layout_alignRight="@+id/background"
+        android:layout_below="@+id/dialogExitButton"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:textColor="@color/White"
+            android:text="@string/new_diary_dialog_baby_name" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_below="@+id/nameTextView"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dateTextView"
+            android:layout_margin="2dp"
+            android:gravity="fill_horizontal"
+            android:inputType="none" />
+
+        <EditText
+            android:id="@+id/birthEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/birthTextView"
+            android:layout_margin="2dp"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/nameEditText"
+            android:layout_margin="2dp"
+            android:text="@string/new_diary_dialog_dob"
+            android:textColor="@color/White" />
+
+        <TextView
+            android:id="@+id/birthTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dateEditText"
+            android:layout_margin="2dp"
+            android:text="@string/new_diary_dialog_pob"
+            android:textColor="@color/White" />
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/confirm_button"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <Button
+            android:id="@+id/femaleButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/maleButton"
+            android:layout_alignBottom="@+id/maleButton"
+            android:layout_alignRight="@+id/okButton"
+            android:background="@drawable/femalesign" />
+
+        <TextView
+            android:id="@+id/genderTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameEditText"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@+id/femaleButton"
+            android:text="@string/new_diary_dialog_gender"
+            android:textColor="@color/White" />
+
+        <Button
+            android:id="@+id/maleButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/dateEditText"
+            android:layout_alignLeft="@+id/genderTextView"
+            android:background="@drawable/malesign" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

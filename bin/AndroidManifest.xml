@@ -7,16 +7,17 @@
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="17" />
-	
-	
+
     <application
         android:allowBackup="true"
-        android:theme="@style/CustomTheme" android:icon="@drawable/babyface_logo" android:logo="@drawable/applogo">
+        android:icon="@drawable/babyface_logo"
+        android:logo="@drawable/applogo"
+        android:theme="@style/CustomTheme"
+        android:debuggable="true" >
         <activity
             android:name="com.example.babyface.Splash"
             android:label="BabyFace"
-            android:theme="@android:style/Theme.NoTitleBar" 
-             >
+            android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,14 +26,17 @@
         </activity>
         <activity
             android:name="com.example.babyface.MainActivity"
-            android:label=" "
-            android:theme="@android:style/Theme.NoTitleBar" 
-             >
+            android:label=" " >
             <intent-filter>
                 <action android:name="com.example.babyface.MAINACTIVITY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.babyface.DiaryEntryView"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            
         </activity>
     </application>
 

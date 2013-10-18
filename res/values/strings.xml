@@ -3,8 +3,14 @@
 
     <string name="app_name">BabyFace</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    
     <string name="Add_title">add</string>
     <string name="About_title">about</string>
-
+    
+    <string name="new_diary_dialog_baby_name">Name</string>
+	<string name="new_diary_dialog_dob">Date of Birth</string>
+	<string name="new_diary_dialog_gender">Gender</string>
+	<string name="new_diary_dialog_pob">Place of Birth</string>
+	<string name="new_diary_dialog_color">Diary Color</string>
+	<string name="new_diary_dialog_set_date_button">Set Date</string>
 </resources>
