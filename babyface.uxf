@@ -1,1 +1,164 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><umlet_diagram></umlet_diagram>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>6</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.EER_Entity</type>
+    <coordinates>
+      <x>624</x>
+      <y>150</y>
+      <w>144</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Baby
+--
+baby_id INTEGER PRIMARY KEY
+baby_name TEXT NOT NULL
+baby_dob DATE
+baby_pob	TEXT
+gender_id INTEGER
+profile_image BLOB
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.EER_Entity</type>
+    <coordinates>
+      <x>354</x>
+      <y>138</y>
+      <w>150</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Diary
+--
+diary_id INTEGER PRIMARY KEY
+baby_id INTEGER NOT NULL
+color_id INTEGER
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.EER_Entity</type>
+    <coordinates>
+      <x>612</x>
+      <y>282</y>
+      <w>156</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Gender
+--
+gender_id INTEGER PRIMARY KEY
+gender TEXT UNIQUE
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.EER_Entity</type>
+    <coordinates>
+      <x>126</x>
+      <y>162</y>
+      <w>144</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Color
+--
+color_id INTEGER PRIMARY KEY
+color TEXT UNIQUE
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.EER_Entity</type>
+    <coordinates>
+      <x>348</x>
+      <y>210</y>
+      <w>162</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Entry
+--
+entry_id INTEGER PRIMARY KEY
+diary_id INTEGER
+event TEXT
+description TEXT
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>252</x>
+      <y>168</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>108;18;18;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>456</x>
+      <y>156</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>18;18;168;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>738</x>
+      <y>198</y>
+      <w>96</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>18;18;84;18;84;108;30;108</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.EER_Entity</type>
+    <coordinates>
+      <x>348</x>
+      <y>312</y>
+      <w>156</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Image
+--
+image_id  INTEGER PRIMARY KEY
+entry_id  INTEGER
+image_name TEXT
+image BLOB
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>474</x>
+      <y>144</y>
+      <w>102</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>18;18;90;18;90;102;18;102</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>486</x>
+      <y>216</y>
+      <w>102</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>18;18;90;18;90;132;18;132</additional_attributes>
+  </element>
+</diagram>
