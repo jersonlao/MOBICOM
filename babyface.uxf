@@ -16,7 +16,7 @@ baby_name TEXT NOT NULL
 baby_dob DATE
 baby_pob	TEXT
 gender_id INTEGER
-profile_image BLOB
+profile_image TEXT
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -134,7 +134,7 @@ description TEXT
 image_id  INTEGER PRIMARY KEY
 entry_id  INTEGER
 image_name TEXT
-image BLOB
+image TEXT
 
 </panel_attributes>
     <additional_attributes/>
