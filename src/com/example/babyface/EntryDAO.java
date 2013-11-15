@@ -71,6 +71,7 @@ public class EntryDAO extends SQLiteOpenHelper {
 		
 	}
 	
+	
 	public List<Entry> getEntries(){
 		SQLiteDatabase db = this.getWritableDatabase();
 		List<Entry> entries = new ArrayList<Entry>();
