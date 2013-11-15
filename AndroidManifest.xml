@@ -10,10 +10,10 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@drawable/babyface_logo"
         android:logo="@drawable/applogo"
-        android:theme="@style/CustomTheme"
-        android:debuggable="true" >
+        android:theme="@style/CustomTheme" >
         <activity
             android:name="com.example.babyface.Splash"
             android:label="BabyFace"
@@ -36,7 +36,10 @@
         <activity
             android:name="com.example.babyface.DiaryEntryView"
             android:theme="@android:style/Theme.NoTitleBar" >
-            
+        </activity>
+        <activity
+            android:name="com.example.babyface.AddDiaryActivity"
+            android:label="@string/title_activity_add_diary" >
         </activity>
     </application>
 

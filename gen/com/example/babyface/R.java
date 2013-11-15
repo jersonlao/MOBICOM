@@ -37,60 +37,77 @@ public final class R {
         public static final int blue_diary=0x7f02000a;
         public static final int close_button=0x7f02000b;
         public static final int confirm_button=0x7f02000c;
-        public static final int diary_entry_page=0x7f02000d;
-        public static final int femalesign=0x7f02000e;
-        public static final int green_diary=0x7f02000f;
-        public static final int ic_launcher=0x7f020010;
-        public static final int malesign=0x7f020011;
-        public static final int new_diary_pop=0x7f020012;
-        public static final int orange_diary=0x7f020013;
-        public static final int pink_diary=0x7f020014;
-        public static final int purple_diary=0x7f020015;
-        public static final int red_diary=0x7f020016;
-        public static final int share_button=0x7f020017;
-        public static final int yellow_diary=0x7f020018;
+        public static final int date_icon=0x7f02000d;
+        public static final int diary_entry_page=0x7f02000e;
+        public static final int femalesign=0x7f02000f;
+        public static final int green_diary=0x7f020010;
+        public static final int ic_launcher=0x7f020011;
+        public static final int malesign=0x7f020012;
+        public static final int new_diary_bg=0x7f020013;
+        public static final int new_diary_header=0x7f020014;
+        public static final int new_diary_pop=0x7f020015;
+        public static final int no_diary=0x7f020016;
+        public static final int orange_diary=0x7f020017;
+        public static final int photo_bg=0x7f020018;
+        public static final int pink_diary=0x7f020019;
+        public static final int purple_diary=0x7f02001a;
+        public static final int red_diary=0x7f02001b;
+        public static final int rounded_edittext=0x7f02001c;
+        public static final int share_button=0x7f02001d;
+        public static final int yellow_diary=0x7f02001e;
     }
     public static final class id {
-        public static final int about_view=0x7f09000f;
-        public static final int action_settings=0x7f09000e;
-        public static final int add_view=0x7f090010;
-        public static final int background=0x7f090001;
-        public static final int birthEditText=0x7f090008;
-        public static final int birthTextView=0x7f090009;
-        public static final int dateEditText=0x7f090006;
-        public static final int dateTextView=0x7f090007;
-        public static final int dialogExitButton=0x7f090002;
-        public static final int femaleButton=0x7f09000b;
-        public static final int genderTextView=0x7f09000d;
-        public static final int linearLayout1=0x7f090003;
-        public static final int maleButton=0x7f09000c;
-        public static final int nameEditText=0x7f090005;
-        public static final int nameTextView=0x7f090004;
-        public static final int okButton=0x7f09000a;
-        public static final int share_button=0x7f090000;
+        public static final int about_view=0x7f090016;
+        public static final int action_settings=0x7f090015;
+        public static final int add_view=0x7f090017;
+        public static final int background=0x7f09000d;
+        public static final int birthEditText=0x7f090012;
+        public static final int birthTextView=0x7f090013;
+        public static final int confirmButton=0x7f090001;
+        public static final int dateEditText=0x7f090010;
+        public static final int dateTextView=0x7f090011;
+        public static final int dialogExitButton=0x7f09000e;
+        public static final int dobEditText=0x7f090008;
+        public static final int dobTextView=0x7f090007;
+        public static final int femaleButton=0x7f09000c;
+        public static final int genderTextView=0x7f090003;
+        public static final int header=0x7f090000;
+        public static final int linearLayout1=0x7f09000f;
+        public static final int maleButton=0x7f09000b;
+        public static final int nameEditText=0x7f090006;
+        public static final int nameTextView=0x7f090005;
+        public static final int okButton=0x7f090014;
+        public static final int photoButton=0x7f090004;
+        public static final int photoTextView=0x7f090002;
+        public static final int pobEditText=0x7f09000a;
+        public static final int pobTextView=0x7f090009;
     }
     public static final class layout {
-        public static final int activity_diary_entry_view=0x7f030000;
-        public static final int activity_main=0x7f030001;
+        public static final int activity_main=0x7f030000;
+        public static final int add_diary=0x7f030001;
         public static final int new_diary_dialog=0x7f030002;
         public static final int splash=0x7f030003;
     }
     public static final class menu {
-        public static final int diary_entry_view=0x7f080000;
-        public static final int main=0x7f080001;
-        public static final int main_menu_actions=0x7f080002;
+        public static final int add_diary=0x7f080000;
+        public static final int diary_entry_view=0x7f080001;
+        public static final int main=0x7f080002;
+        public static final int main_menu_actions=0x7f080003;
     }
     public static final class string {
         public static final int About_title=0x7f050003;
         public static final int Add_title=0x7f050002;
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int hello_world=0x7f05000c;
         public static final int new_diary_dialog_baby_name=0x7f050004;
-        public static final int new_diary_dialog_color=0x7f050008;
         public static final int new_diary_dialog_dob=0x7f050005;
+        public static final int new_diary_dialog_frame=0x7f050008;
         public static final int new_diary_dialog_gender=0x7f050006;
+        public static final int new_diary_dialog_photo=0x7f050009;
         public static final int new_diary_dialog_pob=0x7f050007;
-        public static final int new_diary_dialog_set_date_button=0x7f050009;
+        public static final int new_diary_dialog_set_date_button=0x7f05000a;
+        public static final int title_activity_add_diary=0x7f05000b;
     }
     public static final class style {
         /** 

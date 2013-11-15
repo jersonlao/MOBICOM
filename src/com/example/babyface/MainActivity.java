@@ -2,6 +2,7 @@ package com.example.babyface;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,7 +12,7 @@ import android.widget.Button;
 
 
 public class MainActivity extends Activity {
-	AddDiaryDialog cdd;
+	
 	Button exit;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +27,8 @@ public class MainActivity extends Activity {
 	    // Handle item selection
 	    switch (item.getItemId()) {
 	    case R.id.add_view:
-	    	cdd=new AddDiaryDialog(MainActivity.this); 
-			cdd.show(); 
+	    	Intent i = new Intent(this, AddDiaryActivity.class);
+	    	startActivity(i);
 	        return true;
 	    case R.id.about_view:
 	        return true;

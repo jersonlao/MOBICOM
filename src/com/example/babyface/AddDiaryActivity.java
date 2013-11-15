@@ -4,72 +4,41 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
+import android.os.Bundle;
 import android.app.Activity;
 import android.app.DatePickerDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
-import android.os.Bundle;
 import android.text.InputType;
-import android.util.Log;
+import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.Window;
-import android.view.WindowManager.LayoutParams;
-import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.view.View.OnClickListener;
 
-public class AddDiaryDialog extends Dialog {
-
-	private Activity c;
-	private Button exit;
+public class AddDiaryActivity extends Activity {
+	
 	private Calendar cal;
 	private EditText date;
 	
-	
-
-	public AddDiaryDialog(Activity a) {
-		super(a);
-		this.c = a;
-		
-	}
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
-	    getWindow().setFlags(LayoutParams.FLAG_NOT_TOUCH_MODAL, LayoutParams.FLAG_NOT_TOUCH_MODAL);
-	    getWindow().setFlags(LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH, LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.new_diary_dialog);
+		requestWindowFeature(Window.FEATURE_NO_TITLE); 
+		setContentView(R.layout.add_diary);
 		cal = Calendar.getInstance();
-		exit = (Button) findViewById(R.id.dialogExitButton);
-		date = (EditText) findViewById(R.id.dateEditText);
+		date = (EditText)findViewById(R.id.dobEditText);
 		setListeners();
-		
-	
 	}
 	
 	public void setListeners(){
-		exit.setOnClickListener(new View.OnClickListener(){
-
-			
-			@Override
-			public void onClick(View v) {
-				dismiss();
-				
-			}
-			
-			
-		});
+		
 		
 		date.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				new DatePickerDialog(AddDiaryDialog.this.getContext(),
+				new DatePickerDialog(AddDiaryActivity.this,
 						 dateListener,
 						 cal.get(Calendar.YEAR),
 						 cal.get(Calendar.MONTH),
@@ -107,16 +76,12 @@ public class AddDiaryDialog extends Dialog {
 		}
 		
 	};
-		
-	
+
 	@Override
-	  public boolean onTouchEvent(MotionEvent event) {
-	    
-	    if (MotionEvent.ACTION_OUTSIDE == event.getAction()) {
-	      //do nothing
-	      return true;
-	    }
-	    return super.onTouchEvent(event);
-	  }
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.add_diary, menu);
+		return true;
+	}
 
 }

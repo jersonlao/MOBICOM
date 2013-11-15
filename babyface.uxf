@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="12.1">
-  <zoom_level>9</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <type>com.umlet.element.custom.EER_Entity</type>
     <coordinates>
-      <x>747</x>
-      <y>36</y>
-      <w>216</w>
-      <h>144</h>
+      <x>581</x>
+      <y>14</y>
+      <w>168</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Baby
 --
@@ -23,10 +23,10 @@ profile_image BLOB
   <element>
     <type>com.umlet.element.custom.EER_Entity</type>
     <coordinates>
-      <x>342</x>
-      <y>18</y>
-      <w>225</w>
-      <h>126</h>
+      <x>266</x>
+      <y>0</y>
+      <w>175</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Diary
 --
@@ -41,10 +41,10 @@ frame_id INTEGER
   <element>
     <type>com.umlet.element.custom.EER_Entity</type>
     <coordinates>
-      <x>729</x>
-      <y>234</y>
-      <w>234</w>
-      <h>99</h>
+      <x>567</x>
+      <y>168</y>
+      <w>182</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>Gender
 --
@@ -57,9 +57,9 @@ gender TEXT UNIQUE
     <type>com.umlet.element.custom.EER_Entity</type>
     <coordinates>
       <x>0</x>
-      <y>54</y>
-      <w>216</w>
-      <h>99</h>
+      <y>28</y>
+      <w>168</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>Frame
 --
@@ -71,10 +71,10 @@ frame TEXT UNIQUE
   <element>
     <type>com.umlet.element.custom.EER_Entity</type>
     <coordinates>
-      <x>333</x>
-      <y>126</y>
-      <w>243</w>
-      <h>162</h>
+      <x>259</x>
+      <y>84</y>
+      <w>189</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>Entry
 --
@@ -91,43 +91,43 @@ description TEXT
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>189</x>
-      <y>63</y>
-      <w>179</w>
-      <h>44</h>
+      <x>147</x>
+      <y>35</y>
+      <w>139</w>
+      <h>34</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>162;27;27;27</additional_attributes>
+    <additional_attributes>126;21;21;21</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>495</x>
-      <y>45</y>
-      <w>269</w>
-      <h>44</h>
+      <x>385</x>
+      <y>21</y>
+      <w>209</w>
+      <h>34</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;27;252;27</additional_attributes>
+    <additional_attributes>21;21;196;21</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>918</x>
-      <y>108</y>
-      <w>143</w>
-      <h>179</h>
+      <x>714</x>
+      <y>70</y>
+      <w>111</w>
+      <h>139</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;27;126;27;126;162;45;162</additional_attributes>
+    <additional_attributes>21;21;98;21;98;126;35;126</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.EER_Entity</type>
     <coordinates>
-      <x>333</x>
-      <y>279</y>
-      <w>234</w>
-      <h>126</h>
+      <x>259</x>
+      <y>203</y>
+      <w>182</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Image
 --
@@ -142,23 +142,23 @@ image BLOB
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>522</x>
-      <y>27</y>
-      <w>152</w>
-      <h>170</h>
+      <x>406</x>
+      <y>7</y>
+      <w>118</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;27;135;27;135;153;27;153</additional_attributes>
+    <additional_attributes>21;21;105;21;105;119;21;119</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>540</x>
-      <y>135</y>
-      <w>152</w>
-      <h>215</h>
+      <x>420</x>
+      <y>91</y>
+      <w>118</w>
+      <h>167</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>27;27;135;27;135;198;27;198</additional_attributes>
+    <additional_attributes>21;21;105;21;105;154;21;154</additional_attributes>
   </element>
 </diagram>
