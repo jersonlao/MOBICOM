@@ -22,20 +22,6 @@ public class MainActivity extends Activity {
 			 
 	}
 	
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-	    // Handle item selection
-	    switch (item.getItemId()) {
-	    case R.id.add_view:
-	    	Intent i = new Intent(this, AddDiaryActivity.class);
-	    	startActivity(i);
-	        return true;
-	    case R.id.about_view:
-	        return true;
-	    default:
-	        return super.onOptionsItemSelected(item);
-	    }
-	}
 	
 	
 
